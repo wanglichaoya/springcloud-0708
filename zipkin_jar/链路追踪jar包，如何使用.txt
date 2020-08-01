@@ -1,0 +1,4 @@
+1、在cmd中输入命令：
+java -jar zipkin-server-2.10.1-exec.jar
+
+2、然后打开链路追踪服务器 http://localhost:9411/zipkin/dependency/ 就可以看到如图所示的 视图微服务调用数据微服务 的图形了

@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    hostname: localhost
+    #hostname: 192.168.11.129
+    #笔记本IP：192.168.11.175
+    #hostname:192.168.11.175
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+spring:
+  application:
+    name: eureka-server

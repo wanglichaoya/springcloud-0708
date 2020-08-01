@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      #本机IP：192.168.11.129
+      #defaultZone: http://192.168.11.129:8761/eureka
+      defaultZone: http://localhost:8761/eureka
+      #笔记本IP：192.168.11.175
+      #defaultZone: http://192.168.11.175:8761/eureka/
+spring:
+  application:
+    name: product-view-service-ribbon
